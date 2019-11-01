@@ -20,6 +20,7 @@
 #include <linux/module.h>
 #include <linux/property.h>
 #include <linux/of.h>
+#include <linux/pinctrl/consumer.h>
 #ifdef CONFIG_PPC
 #include <asm/machdep.h>
 #endif
