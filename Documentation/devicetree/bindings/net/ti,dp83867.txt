@@ -10,8 +10,8 @@ Required properties:
 		PHY_INTERFACE_MODE_RGMII_ID or PHY_INTERFACE_MODE_RGMII_TXID
 	- ti,fifo-depth - Transmitt FIFO depth- see dt-bindings/net/ti-dp83867.h
 		for applicable values
-	- led-cfg1 - Value of LED configuration register 1
-	- led-cfg2 - Value of LED configuration register 2
+	- ti,led-cfg1 - Value of LED configuration register 1
+	- ti,led-cfg2 - Value of LED configuration register 2
 
 Note: If the interface type is PHY_INTERFACE_MODE_RGMII the TX/RX clock delays
       will be left at their default values, as set by the PHY's pin strapping.
